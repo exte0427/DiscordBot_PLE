@@ -879,4 +879,4 @@ client.on('message', async message => {
 
 });
 // 여러분의 디스코드 토큰으로 디스코드에 로그인합니다
-client.login(`NjgyMDg4MjA2ODg3NTUwOTk3.XlX8Og.-AplshEII-cTeXaTM_5lwFVO2IA`);
+client.login(`토큰`);
