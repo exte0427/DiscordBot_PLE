@@ -884,4 +884,4 @@ client.on('message', async message => {
 
 });
 // 여러분의 디스코드 토큰으로 디스코드에 로그인합니다
-client.login(`NjgyMDg4MjA2ODg3NTUwOTk3.XoBHAA.Kceqn9i2K4uCOtV1FcisOTt3vA4`);
+client.login(`NgyMDg4MjA2ODgNTUwOTk3.XoBHAA.Kceqn9i2KuCOtV1FcisOTt3vA4`);
