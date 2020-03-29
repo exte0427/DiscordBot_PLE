@@ -462,6 +462,11 @@ client.on('message', async message => {
 		                          .setThumbnail(ment.avatarURL)
 		                            message.channel.send(embed)
         }
+        if (message.content.startsWith("/실행") ){
+          var dj=message.content.substr(4, message.content.length);
+          console.log(dj);
+          eval(dj);
+        }
         function timeout(){
             okdk="";
             for(var i=0;i<ll.length;i++){
@@ -879,4 +884,4 @@ client.on('message', async message => {
 
 });
 // 여러분의 디스코드 토큰으로 디스코드에 로그인합니다
-client.login(`토큰`);
+client.login(`NjgyMDg4MjA2ODg3NTUwOTk3.XoBHAA.Kceqn9i2K4uCOtV1FcisOTt3vA4`);
